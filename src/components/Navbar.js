@@ -15,6 +15,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { SiMessenger } from "react-icons/si";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -89,6 +90,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <SiMessenger style={{ marginBottom: "2px" }} /> Contacts
               </Nav.Link>
             </Nav.Item>
 

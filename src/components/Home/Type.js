@@ -9,6 +9,7 @@ function Type() {
           "Junior Front-end Web Developer",
           "Freelancer",
           "Content Creator",
+          "Digital Marketing"
         ],
         autoStart: true,
         loop: true,
